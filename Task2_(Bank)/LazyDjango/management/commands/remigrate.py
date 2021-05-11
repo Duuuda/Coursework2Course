@@ -3,7 +3,7 @@ from os import system
 
 
 class Command(BaseCommand):
-    help = ''
+    help = 'This command will delete all migrations files and create new ones'
 
     def handle(self, *args, **options):
         system('python manage.py removeoldmigrations')
