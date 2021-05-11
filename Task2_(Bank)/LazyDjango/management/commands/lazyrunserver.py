@@ -3,7 +3,7 @@ from os import system
 
 
 class Command(BaseCommand):
-    help = 'This function prepares and launches Django without user intervention'
+    help = 'This command prepares and launches Django without user intervention'
 
     def add_arguments(self, parser):
         parser.add_argument('-host', '--host',
