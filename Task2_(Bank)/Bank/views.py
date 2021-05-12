@@ -13,3 +13,4 @@ def index(request):
             return render(request, 'Bank/index.html', context={'input': input_text, 'output': handler(input_text)})
         elif request.path.strip('/') == 'clear':
             return render(request, 'Bank/index.html')
+    return render(request, 'Bank/index.html')
