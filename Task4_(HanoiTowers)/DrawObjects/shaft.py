@@ -1,6 +1,6 @@
 from PyQt5.QtWidgets import QGraphicsPolygonItem
 from PyQt5.QtCore import QPoint
-from PyQt5.QtGui import QColor, QPolygonF, QFont
+from PyQt5.QtGui import QColor, QPolygonF
 from DrawObjects import ChildText
 from Utils import cached_property
 
